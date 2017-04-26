@@ -1,0 +1,143 @@
+@font-face {
+    font-family: texas;
+    src: url("../fonts/texas.otf");
+}
+
+body{
+    height : 100%;
+}
+
+h2{
+    font-family: texas;
+}
+
+.brand-logo{
+    margin-left: 10px !important;
+    font-family: texas;
+}
+
+.head{
+    height: 100%;
+    /*background: url("../imgs/western.jpg") center;*/
+    background: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 30rem;
+}
+
+.head .arrow{
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.mcontainer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*
+.mycarousel .elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mycarousel img{
+    height: 100px;
+}
+
+.elem .nom{
+    font-weight: bold;
+}
+.elem .titre{
+    font-style: italic;
+}
+
+.arrows{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows .prev{
+    margin-right: 10px;
+}
+*/
+.video-container{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.description{
+    text-align: justify;
+}
+
+.big_icon{
+    font-size: 6rem;
+}
+
+.itemDrop a{
+    color: black !important;
+}
+
+.time_card{
+    margin-right: 10px;
+}
+
+.services .col{
+    margin-bottom: 20px;
+}
+
+.membre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.membre .nom{
+    font-weight: bold;
+}
+.membre .titre{
+    font-style: italic;
+}
+
+.membre img{
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    h2{
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .mycarousel img{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .brand-logo{
+        margin-left: 0px !important;
+        font-size: 1.7rem !important;
+    }
+}
+
+h6{
+    font-family: texas;
+}
